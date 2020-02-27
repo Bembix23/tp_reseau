@@ -67,7 +67,12 @@ Je recois effectivement un signal qui correspond au message envoyé.
 
 ## III. Routage statique
 
-Pour cette troisième partie, les choses se sont faites en groupe de 5 PC dont deux sans prise ethernet.
+Pour cette troisième partie, les choses se sont faites en groupe de 5 PC dont deux sans prise ethernet:
+-Hugo Labedade
+-Victor Garcia
+-Gauthier Michon
+-Sacha Voisin
+-Jules Dupuis
 
 ### A. PC1
 
