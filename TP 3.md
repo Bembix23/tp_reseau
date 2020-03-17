@@ -359,8 +359,10 @@ traceroute to 10.3.2.11 (10.3.2.11), 30 hops max, 60 byte packets
  2  router (10.3.1.254)  0.199 ms !X  0.163 ms !X  0.127 ms !X
 
  ```
+
  
  ### 3. Comprendre le routage
+ 
  
 |  | Mac src | Mac dst | IP src | IP dst |
 | -------- | -------- | -------- | -------- | -------- |
