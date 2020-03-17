@@ -362,7 +362,7 @@ traceroute to 10.3.2.11 (10.3.2.11), 30 hops max, 60 byte packets
  
  ### 3. Comprendre le routage
  
- |  | Mac src | Mac dst | IP src | IP dst |
+|  | Mac src | Mac dst | IP src | IP dst |
 | -------- | -------- | -------- | -------- | -------- |
 | Dans net1 (trame qui entre dans router)     | 08:00:27:23:d1:4a    | 08:00:27:cf:4d:eb    | 10.3.1.11     | 10.3.2.11     |
 | Dans net2 (trame qui sort de router)     | 08:00:27:81:80:f6     | 08:00:27:16:b3:f2     | 10.3.1.11     | 10.3.2.11     |
@@ -397,8 +397,8 @@ traceroute to 10.3.2.11 (10.3.2.11), 30 hops max, 60 byte packets
 ```
 
 Les adresses ip affichées sont les ip voisines, elles sont associées. lladdr et l'adresse ensuite correspondent à l'adresse MAC de ces ip. Il a ensuite les derniers mots de nos lignes:
--STALE:entrée valide mais suspecte
--REACHABLE:entrée valide mais qui expire au bout d'un delai.
+ STALE : entrée valide mais suspecte ; 
+ REACHABLE : entrée valide mais qui expire au bout d'un delai.
 
 ### 2. Requêtes ARP
 #### A. Table ARP 1
